@@ -4,7 +4,23 @@ margin: 0;
 padding: 0;
 }
 
+.shop-name
+{
+font-family: "metal-mania";
+text-align: center;
+font-size: 3em;
+margin:15em;
+color: white;
 
+}
+
+.shop-motto
+{
+text-align:center;
+font-size: 2em;
+margin: 20em;
+font-family: "metal-mania";
+}
 
 .page-backgroung
 {
