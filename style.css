@@ -1,0 +1,380 @@
+html, body
+{
+margin: 0;
+padding: 0;
+}
+
+
+
+.page-backgroung
+{
+ background-color: lightblue;
+}
+
+.main-header
+{
+background-image: url(img/fruits-header-background.jpg);
+background-size:cover;
+padding-bottom: 30px;
+;;background-color: lightgreen;
+}
+
+.main-header-user
+{
+
+background-size:cover;
+padding-bottom: 30px;
+background-color: lightgreen;
+}
+
+.nav ul
+{
+
+margin: 0;
+}
+
+.nav li
+{
+color: white;
+display: inline;
+}
+
+.nav a
+ {
+ font-family: 'sans-serif';
+ diplay: inline-block;
+ padding: .Sem;
+ color: green;
+ text-decoration: none;
+ font-size: 1.5em;
+
+}
+
+.main-nav
+{
+text-align: center;
+font-size: 1.5em;
+font-weight: lighter;
+
+}
+
+.main-nav li
+{
+padding: 0 20%;
+}
+
+
+.nav a: hover
+{
+background-color: green;
+}
+
+
+.main-header
+{
+padding-bottom: 30px;
+}
+
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.shop-item
+{
+margin: 30px;
+}
+
+.shop-item-title
+{
+display:block;
+width:100%;
+text-align: center;
+font-weight:bold;
+font-size: 2em;
+margin-bottom:15px;
+}
+
+.shop-item-image
+{
+
+height: 250px;
+width:300px;
+border-radius: 10px;
+}
+
+.shop-item-details
+{
+diplay: flex;
+align-items: center;
+padding: 5px;
+}
+
+.shop-item-price
+{
+font-size: 2em;
+flex-grow: 1;
+color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.cart-header
+{
+font-weight:bold;
+font-size: 1.2em;
+color: black;
+}
+
+.cart-column
+{
+display:flex;
+align-items: center;
+margin-right: 1.5em;
+padding-bottom: 10px;
+margin-top:10px;
+
+}
+
+.cart-row
+{
+display: flex;
+}
+
+.cart-item
+{
+width: 45%;
+}
+
+.cart-price
+{
+width: 20%;
+font-size: 1.2em;
+color: black;
+}
+
+.cart-quantity
+{
+width:35%;
+}
+
+.cart-item-title
+{
+color: black;
+margin-left: 0.5em;
+font-size: 1.2em;
+}
+
+.cart-item-image
+{
+width:75px;
+height:auto;
+border-radius: 10px;
+}
+
+.btn-danger
+{
+color: white;
+background-color: red;
+border: none;
+border-radius: 0.3em;
+font-weight: bold;
+}
+
+.btn-danger:hover
+{
+background-color: red;
+}
+
+.btn-purchase
+{
+
+display: block;
+margin-left: 300px;
+font-size: 1em;
+
+}
+
+.cart-quantity-input
+{
+height: 34px;
+width: 50px;
+margin-right:10px;
+border-radius: 5px;
+border: 1px solid black;
+color: black;
+padding: 0;
+text-align:center;
+font-size: 1.2em;
+
+}
+
+
+.cart-row:last-child
+{
+border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column
+{
+border:none;
+}
+
+.cart-total
+{
+text-align: end;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+.cart-total-title
+{
+font-weight: bold;
+font-size: 1.5em;
+color: black;
+margin-right: 20px;
+}
+
+.cart-total-price
+{
+color: black;
+font-size: 1.1em;
+}
+
+.footer
+
+{
+text-align:center;
+background-color: grey;
+}
+
+
+
+/*---------- log in style -----------*/
+
+*
+{
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+.full-screen-container
+{
+background-image: url("img/fruits-background-2.png");
+height: 100vh;
+width: 100vw;
+background-size: cover;
+background-position: center;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-container
+{
+background-color: lightblue;
+padding: 50px 30px;
+width: 50%;
+max-width: 600px;
+}
+
+.login-title
+{
+color: black;
+text-align: center;
+margin: 0;
+margin-bottom: 40px;
+font-size: 2.5em;
+font-weight: normal;
+}
+
+.input-group
+{
+display:flex;
+flex-direction: column;
+margin-buttom: 20px;
+}
+
+.input-group label
+{
+color: black;
+font-weight: lighter;
+font-size: 1.5em;
+margin-bottom: 7px;
+}
+
+.input-group input
+{
+font-size: 1.5em;
+padding: 0.1em 0.25em;
+background-color: wite;
+border 1px solid hsl(201, 100%, 6%);
+outline: none;
+border-radius: 5px;
+color: black;
+font-weight: lighter;
+}
+
+.input-group input:focus
+{
+border: 1px solid grey;
+}
+
+
+.login-button
+
+{
+    color: black;
+    background-color: lightyellow;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover
+{
+background-color: yellow;
+}
