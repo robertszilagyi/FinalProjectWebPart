@@ -32,7 +32,6 @@ font-family: "metal-mania";
 background-image: url(img/fruits-header-background.jpg);
 background-size:cover;
 padding-bottom: 30px;
-;;background-color: lightgreen;
 }
 
 .main-header-user
@@ -170,6 +169,7 @@ color: #333;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 
@@ -301,6 +301,12 @@ font-size: 1.1em;
 text-align:center;
 background-color: grey;
 }
+
+ .container {
+              max-width: 900px;
+              margin: 0 auto;
+              padding: 0 1.5em;
+          }
 
 
 
