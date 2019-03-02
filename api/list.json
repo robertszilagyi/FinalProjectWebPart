@@ -1,0 +1,88 @@
+[
+
+  {
+    "id": 1,
+    "productName": "Oranges",
+    "stock": 1000,
+    "price": 2
+  },
+{
+"id" : 2,
+  "productName" : "Apples",
+  "stock" : 1000,
+  "price" : 1.5
+},
+  {
+    "id" : 3,
+    "productName" : "Bananas",
+    "stock" : 1000,
+    "price" : 3
+  },
+  {
+    "id" : 4,
+    "productName" : "Blackberry",
+    "stock" :3000 ,
+    "price" : 4
+  },
+  {
+    "id" : 5,
+    "productName" : "Blue Grapes",
+    "stock" : 10000 ,
+    "price" : 2.5
+  },
+  {
+    "id" : 6,
+    "productName" : "White Grapes",
+    "stock" : 10000,
+    "price" : 3
+  },
+  {
+    "id" : 7,
+    "productName" : "Grapefrut",
+    "stock" : 1000,
+    "price" : 4
+  },
+
+  {
+    "id" : 8,
+    "productName" : "Kiwi",
+    "stock" : 1000 ,
+    "price" : 2.5
+  },
+  {
+    "id" : 9,
+    "productName" : "Mango",
+    "stock" : 2000,
+    "price" : 4.5
+  },
+  {
+    "id" : 10,
+    "productName" : "Pineapple",
+    "stock" :1000 ,
+    "price" : 3.75
+  },
+  {
+    "id" : 11,
+    "productName" : "Pom fruit",
+    "stock" :10000 ,
+    "price" : 2.45
+  },
+  {
+    "id" : 12,
+    "productName" : "Strawberries",
+    "stock" : 10000 ,
+    "price" : 2.45
+  },
+  {
+    "id" : 13,
+    "productName" : "Watermelon",
+    "stock" : 1000,
+    "price" : 1
+  },
+  {
+    "id" : 14,
+    "productName" : "Avocado",
+    "stock" : 1000,
+    "price" :2.75
+  }
+]
