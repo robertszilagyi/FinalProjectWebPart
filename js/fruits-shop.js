@@ -2,7 +2,7 @@ var editId;
 
 var API_URL =
 {
-LOGIN: 'http://localhost:8010/login',
+
 CREATE: 'http://localhost:8010/product',
 READ: 'http://localhost:8010/product',
 UPDATE: 'http://localhost:8010/store/1',
