@@ -6,10 +6,11 @@ padding: 0;
 
 .shop-name
 {
+
 font-family: "metal-mania";
 text-align: center;
 font-size: 3em;
-margin:20em;
+margin:800px;
 color: green;
 
 }
@@ -127,6 +128,7 @@ padding-bottom: 30px;
     border: none;
     border-radius: .3em;
     font-weight: bold;
+
 }
 
 .shop-item
